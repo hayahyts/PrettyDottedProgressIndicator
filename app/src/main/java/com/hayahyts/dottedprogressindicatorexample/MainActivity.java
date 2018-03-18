@@ -8,7 +8,7 @@ import com.hayahyts.dottedprogressindicator.DottedProgressBar;
 
 public class MainActivity extends AppCompatActivity {
     private int current = 0;
-    private static final int TOTAL_SIZE = 6;
+    private static final int TOTAL_SIZE = 7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
