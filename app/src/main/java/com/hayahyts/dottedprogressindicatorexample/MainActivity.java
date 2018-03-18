@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
                     current = 0;
                     dottedProgressBar.setCurrent(current, true);
                 }
-
             }
         });
     }
