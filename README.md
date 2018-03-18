@@ -2,7 +2,7 @@
 
 A dotted progress bar to for example show the page we're on. See GIF.
 
-Step 1. Add the following in your root build.gradle at the end of repositories:
+# Step 1. Add the following in your root build.gradle at the end of repositories:
 
 ```
 	allprojects {
@@ -14,7 +14,7 @@ Step 1. Add the following in your root build.gradle at the end of repositories:
 ```
 
 
-Step 2. Add the dependency
+# Step 2. Add the dependency
 
 ```
   dependencies {
@@ -22,7 +22,7 @@ Step 2. Add the dependency
 	}
 ```
 
-You can now use it in your layout file like this:
+# You can now use it in your layout file like this:
 
 ```
   <com.hayahyts.dottedprogressindicator.DottedProgressBar
@@ -33,7 +33,7 @@ You can now use it in your layout file like this:
         android:orientation="horizontal" />
 ```
 
-Get it in the Activity/Fragment like this:
+# Get it in the Activity/Fragment like this:
 
 ```
   DottedProgressBar dottedProgressBar = findViewById(R.id.dotted_progress_bar);
