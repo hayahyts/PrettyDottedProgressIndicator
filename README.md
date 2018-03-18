@@ -40,3 +40,7 @@ A dotted progress bar to for example show the page we're on. See GIF.
   dottedProgressBar.setDotCount(TOTAL_SIZE);
   dottedProgressBar.setCurrent(current, true);
 ```
+
+# Sample App
+![Sample App](https://github.com/hayahyts/PrettyDottedProgressIndicator/blob/master/art/activity.gif)
+
